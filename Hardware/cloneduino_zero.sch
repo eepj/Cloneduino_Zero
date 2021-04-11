@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Cloneduino Zero PCB"
+Date "2021-04-11"
+Rev "1.0"
+Comp "www.github.com/eepj"
 Comment1 ""
 Comment2 ""
 Comment3 ""
