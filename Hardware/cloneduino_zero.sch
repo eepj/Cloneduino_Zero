@@ -1082,7 +1082,7 @@ F 3 "~" H 7200 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7500 3000 2    50   ~ 0
-PA10
+PB10
 Text Label 7500 3400 2    50   ~ 0
 PA12
 $Comp
@@ -1172,17 +1172,6 @@ F 1 "GND" V 5905 3772 50  0000 R CNN
 F 2 "" H 5900 3900 50  0001 C CNN
 F 3 "" H 5900 3900 50  0001 C CNN
 	1    5900 3900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J5
-U 1 1 606AA87C
-P 5550 5750
-F 0 "J5" V 5514 5462 50  0000 R CNN
-F 1 "Conn_01x04" V 5423 5462 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5550 5750 50  0001 C CNN
-F 3 "~" H 5550 5750 50  0001 C CNN
-	1    5550 5750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1279,6 +1268,17 @@ F 1 "+3V3" V 9115 1178 50  0000 L CNN
 F 2 "" H 9100 1050 50  0001 C CNN
 F 3 "" H 9100 1050 50  0001 C CNN
 	1    9100 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 606AA87C
+P 5550 5750
+F 0 "J5" V 5514 5462 50  0000 R CNN
+F 1 "SWD" V 5423 5462 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5550 5750 50  0001 C CNN
+F 3 "~" H 5550 5750 50  0001 C CNN
+	1    5550 5750
 	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
