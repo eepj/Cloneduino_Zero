@@ -1281,8 +1281,6 @@ Text Notes 700  6550 0    50   ~ 0
 NO INT
 Text Notes 700  4150 0    50   ~ 0
 NO INT
-Text Notes 700  4450 0    50   ~ 0
-NO INT
 Text Notes 700  6650 0    50   ~ 0
 NO INT
 Text Notes 700  6350 0    50   ~ 0
@@ -1297,4 +1295,8 @@ Text Notes 1100 5950 0    50   ~ 0
 PWM
 Text Notes 4500 4150 0    50   ~ 0
 NO INT
+Text Notes 1700 6550 0    50   ~ 0
+OUTPUT\nONLY
+Text Notes 3850 4225 0    50   ~ 0
+OUTPUT\nONLY
 $EndSCHEMATC
