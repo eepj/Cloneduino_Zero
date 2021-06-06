@@ -1299,4 +1299,56 @@ Text Notes 1700 6550 0    50   ~ 0
 OUTPUT\nONLY
 Text Notes 3850 4225 0    50   ~ 0
 OUTPUT\nONLY
+Text Notes 700  4950 0    50   ~ 0
+INT11
+Text Notes 700  4850 0    50   ~ 0
+INT10
+Text Notes 700  5250 0    50   ~ 0
+INT14
+Text Notes 700  4750 0    50   ~ 0
+INT9
+Text Notes 700  5350 0    50   ~ 0
+INT15
+Text Notes 700  5850 0    50   ~ 0
+INT4
+Text Notes 700  5950 0    50   ~ 0
+INT5
+Text Notes 700  4450 0    50   ~ 0
+INT6
+Text Notes 700  4550 0    50   ~ 0
+INT7
+Text Notes 700  5650 0    50   ~ 0
+INT2
+Text Notes 700  5450 0    50   ~ 0
+INT0
+Text Notes 700  5750 0    50   ~ 0
+INT3
+Text Notes 700  5550 0    50   ~ 0
+INT1
+Text Notes 700  4050 0    50   ~ 0
+INT2
+Text Notes 4500 4650 0    50   ~ 0
+INT8
+Text Notes 4500 4750 0    50   ~ 0
+INT9
+Text Notes 700  4250 0    50   ~ 0
+INT4
+Text Notes 700  4350 0    50   ~ 0
+INT5
+Text Notes 4500 4050 0    50   ~ 0
+INT2
+Text Notes 700  6050 0    50   ~ 0
+INT6
+Text Notes 700  6150 0    50   ~ 0
+INT7
+Text Notes 700  5050 0    50   ~ 0
+INT12
+Text Notes 4500 4850 0    50   ~ 0
+INT10
+Text Notes 4500 4950 0    50   ~ 0
+INT11
+Text Notes 700  6850 0    50   ~ 0
+INT10
+Text Notes 700  6950 0    50   ~ 0
+INT11
 $EndSCHEMATC
