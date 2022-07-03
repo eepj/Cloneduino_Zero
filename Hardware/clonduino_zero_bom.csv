@@ -1,29 +1,29 @@
-Designator,Value,Footprint
-    C1,100n,Capacitor_SMD:C_0402_1005Metric
-    C2,100n,Capacitor_SMD:C_0402_1005Metric
-    C3,100n,Capacitor_SMD:C_0402_1005Metric
-    C4,100n,Capacitor_SMD:C_0402_1005Metric
-    C5,100n,Capacitor_SMD:C_0402_1005Metric
-    C6,2.2u,Capacitor_SMD:C_0603_1608Metric
-    C7,100n,Capacitor_SMD:C_0402_1005Metric
-    C8,4.7u,Capacitor_SMD:C_0603_1608Metric
-    C9,100n,Capacitor_SMD:C_0402_1005Metric
-    C10,15p,Capacitor_SMD:C_0402_1005Metric
-    C11,15p,Capacitor_SMD:C_0402_1005Metric
-    D1,D13,LED_SMD:LED_0402_1005Metric
-    D2,PWR,LED_SMD:LED_0402_1005Metric
-    J1,USB-C Receptacle,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12
-    J2,MicroSD Slot,Connector_Card:microSD_HC_Molex_104031-0811
-    J3,Conn_01x20,Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical
-    J4,Conn_01x20,Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical
-    J5,Conn_01x04,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
-    L1,L,Inductor_SMD:L_0805_2012Metric
-    R1,4k7,Resistor_SMD:R_0402_1005Metric
-    R2,4k7,Resistor_SMD:R_0402_1005Metric
-    R3,5k1,Resistor_SMD:R_0402_1005Metric
-    R4,5k1,Resistor_SMD:R_0402_1005Metric
-    R5,10k,Resistor_SMD:R_0402_1005Metric
-    SW1,SW_Push,Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK
-    U1,SPX3819M5-L-3-3,Package_TO_SOT_SMD:SOT-23-5
-    U2,ATSAMD21G18A-A,Package_QFP:TQFP-48_7x7mm_P0.5mm
-    Y1,32kHz,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm
+Designator,Value,Footprint,Qty
+C1,100n,Capacitor_SMD:C_0402_1005Metric,1
+C2,100n,Capacitor_SMD:C_0402_1005Metric,1
+C3,100n,Capacitor_SMD:C_0402_1005Metric,1
+C4,100n,Capacitor_SMD:C_0402_1005Metric,1
+C5,100n,Capacitor_SMD:C_0402_1005Metric,1
+C6,4.7u,Capacitor_SMD:C_0603_1608Metric,1
+C7,100n,Capacitor_SMD:C_0402_1005Metric,1
+C8,4.7u,Capacitor_SMD:C_0603_1608Metric,1
+C9,100n,Capacitor_SMD:C_0402_1005Metric,1
+C10,15p,Capacitor_SMD:C_0402_1005Metric,1
+C11,15p,Capacitor_SMD:C_0402_1005Metric,1
+D1,D13,LED_SMD:LED_0402_1005Metric,1
+D2,PWR,LED_SMD:LED_0402_1005Metric,1
+J1,USB-C Receptacle,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,1
+J2,MicroSD Slot,Connector_Card:microSD_HC_Molex_104031-0811,1
+J3,Conn_01x20,Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical,1
+J4,Conn_01x20,Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical,1
+J5,SWD,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1
+L1,L,Inductor_SMD:L_0805_2012Metric,1
+R1,5k1,Resistor_SMD:R_0402_1005Metric,1
+R2,5k1,Resistor_SMD:R_0402_1005Metric,1
+R3,5k1,Resistor_SMD:R_0402_1005Metric,1
+R4,5k1,Resistor_SMD:R_0402_1005Metric,1
+R5,5k1,Resistor_SMD:R_0402_1005Metric,1
+SW1,Reset Switch,Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK,1
+U1,SPX3819M5-L-3-3,Package_TO_SOT_SMD:SOT-23-5,1
+U2,ATSAMD21G18A-A,Package_QFP:TQFP-48_7x7mm_P0.5mm,1
+Y1,32.768kHz,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm,1
