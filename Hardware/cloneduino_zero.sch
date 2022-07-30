@@ -943,51 +943,51 @@ PB02
 $Comp
 L Connector:Micro_SD_Card J2
 U 1 1 6086604F
-P 8400 3100
-F 0 "J2" H 8350 3817 50  0000 C CNN
-F 1 "MicroSD Slot" H 8350 3726 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Molex_104031-0811" H 9550 3400 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 8400 3100 50  0001 C CNN
-	1    8400 3100
+P 8050 2800
+F 0 "J2" H 8000 3517 50  0000 C CNN
+F 1 "MicroSD Slot" H 8000 3426 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Molex_104031-0811" H 9200 3100 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 8050 2800 50  0001 C CNN
+	1    8050 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR028
 U 1 1 60867BF8
-P 7500 3300
-F 0 "#PWR028" H 7500 3050 50  0001 C CNN
-F 1 "GND" V 7505 3172 50  0000 R CNN
-F 2 "" H 7500 3300 50  0001 C CNN
-F 3 "" H 7500 3300 50  0001 C CNN
-	1    7500 3300
+P 7150 3000
+F 0 "#PWR028" H 7150 2750 50  0001 C CNN
+F 1 "GND" V 7155 2872 50  0000 R CNN
+F 2 "" H 7150 3000 50  0001 C CNN
+F 3 "" H 7150 3000 50  0001 C CNN
+	1    7150 3000
 	0    1    1    0   
 $EndComp
-Text Label 7500 3200 2    50   ~ 0
+Text Label 7150 2900 2    50   ~ 0
 PB11
 $Comp
 L power:+3V3 #PWR027
 U 1 1 60869899
-P 7500 3100
-F 0 "#PWR027" H 7500 2950 50  0001 C CNN
-F 1 "+3V3" V 7515 3228 50  0000 L CNN
-F 2 "" H 7500 3100 50  0001 C CNN
-F 3 "" H 7500 3100 50  0001 C CNN
-	1    7500 3100
+P 7150 2800
+F 0 "#PWR027" H 7150 2650 50  0001 C CNN
+F 1 "+3V3" V 7165 2928 50  0000 L CNN
+F 2 "" H 7150 2800 50  0001 C CNN
+F 3 "" H 7150 2800 50  0001 C CNN
+	1    7150 2800
 	0    -1   -1   0   
 $EndComp
-Text Label 7500 2900 2    50   ~ 0
+Text Label 7150 2600 2    50   ~ 0
 PA13
-NoConn ~ 7500 2800
-NoConn ~ 7500 3500
+NoConn ~ 7150 2500
+NoConn ~ 7150 3200
 $Comp
 L power:GND #PWR033
 U 1 1 60873A58
-P 9200 3700
-F 0 "#PWR033" H 9200 3450 50  0001 C CNN
-F 1 "GND" V 9205 3572 50  0000 R CNN
-F 2 "" H 9200 3700 50  0001 C CNN
-F 3 "" H 9200 3700 50  0001 C CNN
-	1    9200 3700
+P 8850 3400
+F 0 "#PWR033" H 8850 3150 50  0001 C CNN
+F 1 "GND" V 8855 3272 50  0000 R CNN
+F 2 "" H 8850 3400 50  0001 C CNN
+F 3 "" H 8850 3400 50  0001 C CNN
+	1    8850 3400
 	0    -1   -1   0   
 $EndComp
 Text Notes 6800 2050 0    50   ~ 0
@@ -1004,43 +1004,43 @@ Wire Wire Line
 	1400 6250 2150 6250
 Wire Wire Line
 	1400 6350 2150 6350
-Text Label 5600 4000 2    50   ~ 0
+Text Label 5600 4125 2    50   ~ 0
 PA02
-Text Label 5600 4100 2    50   ~ 0
+Text Label 5600 4225 2    50   ~ 0
 PA03
-Text Label 5600 4200 2    50   ~ 0
+Text Label 5600 4325 2    50   ~ 0
 PB08
-Text Label 5600 4300 2    50   ~ 0
+Text Label 5600 4425 2    50   ~ 0
 PB09
-Text Label 5600 5000 2    50   ~ 0
+Text Label 5600 5125 2    50   ~ 0
 PA10
-Text Label 5600 5100 2    50   ~ 0
+Text Label 5600 5225 2    50   ~ 0
 PA11
-Text Label 5600 4400 2    50   ~ 0
+Text Label 5600 4525 2    50   ~ 0
 PA04
-Text Label 5600 4500 2    50   ~ 0
+Text Label 5600 4625 2    50   ~ 0
 PA05
-Text Label 5600 4600 2    50   ~ 0
+Text Label 5600 4725 2    50   ~ 0
 PA06
-Text Label 5600 4700 2    50   ~ 0
+Text Label 5600 4825 2    50   ~ 0
 PA07
-Text Label 5600 4800 2    50   ~ 0
+Text Label 5600 4925 2    50   ~ 0
 PA08
-Text Label 5600 4900 2    50   ~ 0
+Text Label 5600 5025 2    50   ~ 0
 PA09
-Text Label 5600 5200 2    50   ~ 0
+Text Label 5600 5325 2    50   ~ 0
 PB10
-Text Label 5600 5300 2    50   ~ 0
+Text Label 5600 5425 2    50   ~ 0
 PB11
-Text Label 5600 5400 2    50   ~ 0
+Text Label 5600 5525 2    50   ~ 0
 PA12
-Text Label 5600 5500 2    50   ~ 0
+Text Label 5600 5625 2    50   ~ 0
 PA14
-Text Label 5600 5600 2    50   ~ 0
+Text Label 5600 5725 2    50   ~ 0
 PA15
-Text Label 5850 5950 3    50   ~ 0
+Text Label 5850 6075 3    50   ~ 0
 PA30
-Text Label 5950 5950 3    50   ~ 0
+Text Label 5950 6075 3    50   ~ 0
 PA31
 Wire Wire Line
 	7100 1150 7200 1150
@@ -1055,152 +1055,152 @@ F 3 "~" H 7200 1150 50  0001 C CNN
 	1    7200 1150
 	0    1    1    0   
 $EndComp
-Text Label 7500 3000 2    50   ~ 0
+Text Label 7150 2700 2    50   ~ 0
 PB10
-Text Label 7500 3400 2    50   ~ 0
+Text Label 7150 3100 2    50   ~ 0
 PA12
 $Comp
 L Connector_Generic:Conn_01x20 J3
 U 1 1 60DF8F67
-P 5800 4600
-F 0 "J3" H 5750 5600 50  0000 L CNN
-F 1 "Conn_01x20" H 5880 4501 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 5800 4600 50  0001 C CNN
-F 3 "~" H 5800 4600 50  0001 C CNN
-	1    5800 4600
+P 5800 4725
+F 0 "J3" H 5750 5725 50  0000 L CNN
+F 1 "Conn_01x20" H 5880 4626 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 5800 4725 50  0001 C CNN
+F 3 "~" H 5800 4725 50  0001 C CNN
+	1    5800 4725
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x20 J4
 U 1 1 60DFC368
-P 6000 4700
-F 0 "J4" H 5950 3600 50  0000 L CNN
-F 1 "Conn_01x20" H 6080 4601 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 6000 4700 50  0001 C CNN
-F 3 "~" H 6000 4700 50  0001 C CNN
-	1    6000 4700
+P 6000 4825
+F 0 "J4" H 5950 3725 50  0000 L CNN
+F 1 "Conn_01x20" H 6080 4726 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 6000 4825 50  0001 C CNN
+F 3 "~" H 6000 4825 50  0001 C CNN
+	1    6000 4825
 	-1   0    0    1   
 $EndComp
-Text Label 6200 4100 0    50   ~ 0
+Text Label 6200 4225 0    50   ~ 0
 PB02
-Text Label 6200 4000 0    50   ~ 0
+Text Label 6200 4125 0    50   ~ 0
 PB03
-Text Label 6200 4200 0    50   ~ 0
+Text Label 6200 4325 0    50   ~ 0
 PA28
-Text Label 6200 4300 0    50   ~ 0
+Text Label 6200 4425 0    50   ~ 0
 NRST
-Text Label 6200 4400 0    50   ~ 0
+Text Label 6200 4525 0    50   ~ 0
 PA27
-Text Label 6200 4500 0    50   ~ 0
+Text Label 6200 4625 0    50   ~ 0
 PB23
-Text Label 6200 4600 0    50   ~ 0
+Text Label 6200 4725 0    50   ~ 0
 PB22
-Text Label 6200 4800 0    50   ~ 0
+Text Label 6200 4925 0    50   ~ 0
 USB_D-
-Text Label 6200 4700 0    50   ~ 0
+Text Label 6200 4825 0    50   ~ 0
 USB_D+
-Text Label 6200 4900 0    50   ~ 0
+Text Label 6200 5025 0    50   ~ 0
 PA23
-Text Label 6200 5000 0    50   ~ 0
+Text Label 6200 5125 0    50   ~ 0
 PA22
-Text Label 6200 5100 0    50   ~ 0
+Text Label 6200 5225 0    50   ~ 0
 PA21
-Text Label 6200 5200 0    50   ~ 0
+Text Label 6200 5325 0    50   ~ 0
 PA20
-Text Label 6200 5300 0    50   ~ 0
+Text Label 6200 5425 0    50   ~ 0
 PA19
-Text Label 6200 5400 0    50   ~ 0
+Text Label 6200 5525 0    50   ~ 0
 PA18
-Text Label 6200 5500 0    50   ~ 0
+Text Label 6200 5625 0    50   ~ 0
 PA17
-Text Label 6200 5600 0    50   ~ 0
+Text Label 6200 5725 0    50   ~ 0
 PA16
 $Comp
 L power:+5V #PWR032
 U 1 1 60B7F148
-P 6200 3700
-F 0 "#PWR032" H 6200 3550 50  0001 C CNN
-F 1 "+5V" V 6215 3828 50  0000 L CNN
-F 2 "" H 6200 3700 50  0001 C CNN
-F 3 "" H 6200 3700 50  0001 C CNN
-	1    6200 3700
+P 6200 3825
+F 0 "#PWR032" H 6200 3675 50  0001 C CNN
+F 1 "+5V" V 6215 3953 50  0000 L CNN
+F 2 "" H 6200 3825 50  0001 C CNN
+F 3 "" H 6200 3825 50  0001 C CNN
+	1    6200 3825
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3V3 #PWR0101
 U 1 1 60E228C2
-P 6200 3800
-F 0 "#PWR0101" H 6200 3650 50  0001 C CNN
-F 1 "+3V3" V 6215 3928 50  0000 L CNN
-F 2 "" H 6200 3800 50  0001 C CNN
-F 3 "" H 6200 3800 50  0001 C CNN
-	1    6200 3800
+P 6200 3925
+F 0 "#PWR0101" H 6200 3775 50  0001 C CNN
+F 1 "+3V3" V 6215 4053 50  0000 L CNN
+F 2 "" H 6200 3925 50  0001 C CNN
+F 3 "" H 6200 3925 50  0001 C CNN
+	1    6200 3925
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 60E23994
-P 6200 3900
-F 0 "#PWR0102" H 6200 3650 50  0001 C CNN
-F 1 "GND" V 6205 3772 50  0000 R CNN
-F 2 "" H 6200 3900 50  0001 C CNN
-F 3 "" H 6200 3900 50  0001 C CNN
-	1    6200 3900
+P 6200 4025
+F 0 "#PWR0102" H 6200 3775 50  0001 C CNN
+F 1 "GND" V 6205 3897 50  0000 R CNN
+F 2 "" H 6200 4025 50  0001 C CNN
+F 3 "" H 6200 4025 50  0001 C CNN
+	1    6200 4025
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR025
 U 1 1 606B0DA6
-P 5750 5950
-F 0 "#PWR025" H 5750 5800 50  0001 C CNN
-F 1 "+3V3" V 5765 6078 50  0000 L CNN
-F 2 "" H 5750 5950 50  0001 C CNN
-F 3 "" H 5750 5950 50  0001 C CNN
-	1    5750 5950
+P 5750 6075
+F 0 "#PWR025" H 5750 5925 50  0001 C CNN
+F 1 "+3V3" V 5765 6203 50  0000 L CNN
+F 2 "" H 5750 6075 50  0001 C CNN
+F 3 "" H 5750 6075 50  0001 C CNN
+	1    5750 6075
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR026
 U 1 1 606B0DAC
-P 6050 5950
-F 0 "#PWR026" H 6050 5700 50  0001 C CNN
-F 1 "GND" V 6055 5822 50  0000 R CNN
-F 2 "" H 6050 5950 50  0001 C CNN
-F 3 "" H 6050 5950 50  0001 C CNN
-	1    6050 5950
+P 6050 6075
+F 0 "#PWR026" H 6050 5825 50  0001 C CNN
+F 1 "GND" V 6055 5947 50  0000 R CNN
+F 2 "" H 6050 6075 50  0001 C CNN
+F 3 "" H 6050 6075 50  0001 C CNN
+	1    6050 6075
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0103
 U 1 1 606CE6AA
-P 5600 3800
-F 0 "#PWR0103" H 5600 3650 50  0001 C CNN
-F 1 "+3V3" V 5615 3928 50  0000 L CNN
-F 2 "" H 5600 3800 50  0001 C CNN
-F 3 "" H 5600 3800 50  0001 C CNN
-	1    5600 3800
+P 5600 3925
+F 0 "#PWR0103" H 5600 3775 50  0001 C CNN
+F 1 "+3V3" V 5615 4053 50  0000 L CNN
+F 2 "" H 5600 3925 50  0001 C CNN
+F 3 "" H 5600 3925 50  0001 C CNN
+	1    5600 3925
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 606CE6B0
-P 5600 3900
-F 0 "#PWR0104" H 5600 3650 50  0001 C CNN
-F 1 "GND" V 5605 3772 50  0000 R CNN
-F 2 "" H 5600 3900 50  0001 C CNN
-F 3 "" H 5600 3900 50  0001 C CNN
-	1    5600 3900
+P 5600 4025
+F 0 "#PWR0104" H 5600 3775 50  0001 C CNN
+F 1 "GND" V 5605 3897 50  0000 R CNN
+F 2 "" H 5600 4025 50  0001 C CNN
+F 3 "" H 5600 4025 50  0001 C CNN
+	1    5600 4025
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0105
 U 1 1 607410AA
-P 5600 3700
-F 0 "#PWR0105" H 5600 3550 50  0001 C CNN
-F 1 "+5V" V 5615 3828 50  0000 L CNN
-F 2 "" H 5600 3700 50  0001 C CNN
-F 3 "" H 5600 3700 50  0001 C CNN
-	1    5600 3700
+P 5600 3825
+F 0 "#PWR0105" H 5600 3675 50  0001 C CNN
+F 1 "+5V" V 5615 3953 50  0000 L CNN
+F 2 "" H 5600 3825 50  0001 C CNN
+F 3 "" H 5600 3825 50  0001 C CNN
+	1    5600 3825
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1247,19 +1247,19 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J5
 U 1 1 606AA87C
-P 5850 5750
-F 0 "J5" V 5814 5462 50  0000 R CNN
-F 1 "SWD" V 5723 5462 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5850 5750 50  0001 C CNN
-F 3 "~" H 5850 5750 50  0001 C CNN
-	1    5850 5750
+P 5850 5875
+F 0 "J5" V 5814 5587 50  0000 R CNN
+F 1 "SWD" V 5723 5587 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5850 5875 50  0001 C CNN
+F 3 "~" H 5850 5875 50  0001 C CNN
+	1    5850 5875
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR036
 U 1 1 60819689
 P 9100 1500
-F 0 "#PWR?" H 9100 1350 50  0001 C CNN
+F 0 "#PWR036" H 9100 1350 50  0001 C CNN
 F 1 "+3V3" V 9115 1628 50  0000 L CNN
 F 2 "" H 9100 1500 50  0001 C CNN
 F 3 "" H 9100 1500 50  0001 C CNN
@@ -1267,10 +1267,10 @@ F 3 "" H 9100 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR037
 U 1 1 6081F262
 P 9900 1500
-F 0 "#PWR?" H 9900 1250 50  0001 C CNN
+F 0 "#PWR037" H 9900 1250 50  0001 C CNN
 F 1 "GND" V 9905 1372 50  0000 R CNN
 F 2 "" H 9900 1500 50  0001 C CNN
 F 3 "" H 9900 1500 50  0001 C CNN
@@ -1351,4 +1351,160 @@ Text Notes 700  6850 0    50   ~ 0
 INT10
 Text Notes 700  6950 0    50   ~ 0
 INT11
+Text Label 6950 4150 2    50   ~ 0
+PA02
+Text Label 6950 4250 2    50   ~ 0
+PA03
+Text Label 6950 4350 2    50   ~ 0
+PB08
+Text Label 6950 4450 2    50   ~ 0
+PB09
+Text Label 6950 5150 2    50   ~ 0
+PA10
+Text Label 6950 5250 2    50   ~ 0
+PA11
+Text Label 6950 4550 2    50   ~ 0
+PA04
+Text Label 6950 4650 2    50   ~ 0
+PA05
+Text Label 6950 4750 2    50   ~ 0
+PA06
+Text Label 6950 4850 2    50   ~ 0
+PA07
+Text Label 6950 4950 2    50   ~ 0
+PA08
+Text Label 6950 5050 2    50   ~ 0
+PA09
+Text Label 6950 5350 2    50   ~ 0
+PB10
+Text Label 6950 5450 2    50   ~ 0
+PB11
+Text Label 6950 5550 2    50   ~ 0
+PA12
+Text Label 6950 5650 2    50   ~ 0
+PA14
+Text Label 6950 5750 2    50   ~ 0
+PA15
+$Comp
+L Connector_Generic:Conn_01x20 J6
+U 1 1 631494C8
+P 7150 4750
+F 0 "J6" H 7100 5750 50  0000 L CNN
+F 1 "Conn_01x20" H 7230 4651 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 7150 4750 50  0001 C CNN
+F 3 "~" H 7150 4750 50  0001 C CNN
+	1    7150 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x20 J7
+U 1 1 631494CE
+P 7350 4850
+F 0 "J7" H 7300 3750 50  0000 L CNN
+F 1 "Conn_01x20" H 7430 4751 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 7350 4850 50  0001 C CNN
+F 3 "~" H 7350 4850 50  0001 C CNN
+	1    7350 4850
+	-1   0    0    1   
+$EndComp
+Text Label 7550 4250 0    50   ~ 0
+PB02
+Text Label 7550 4150 0    50   ~ 0
+PB03
+Text Label 7550 4350 0    50   ~ 0
+PA28
+Text Label 7550 4450 0    50   ~ 0
+NRST
+Text Label 7550 4550 0    50   ~ 0
+PA27
+Text Label 7550 4650 0    50   ~ 0
+PB23
+Text Label 7550 4750 0    50   ~ 0
+PB22
+Text Label 7550 4950 0    50   ~ 0
+USB_D-
+Text Label 7550 4850 0    50   ~ 0
+USB_D+
+Text Label 7550 5050 0    50   ~ 0
+PA23
+Text Label 7550 5150 0    50   ~ 0
+PA22
+Text Label 7550 5250 0    50   ~ 0
+PA21
+Text Label 7550 5350 0    50   ~ 0
+PA20
+Text Label 7550 5450 0    50   ~ 0
+PA19
+Text Label 7550 5550 0    50   ~ 0
+PA18
+Text Label 7550 5650 0    50   ~ 0
+PA17
+Text Label 7550 5750 0    50   ~ 0
+PA16
+$Comp
+L power:+5V #PWR031
+U 1 1 631494E5
+P 7550 3850
+F 0 "#PWR031" H 7550 3700 50  0001 C CNN
+F 1 "+5V" V 7565 3978 50  0000 L CNN
+F 2 "" H 7550 3850 50  0001 C CNN
+F 3 "" H 7550 3850 50  0001 C CNN
+	1    7550 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR034
+U 1 1 631494EB
+P 7550 3950
+F 0 "#PWR034" H 7550 3800 50  0001 C CNN
+F 1 "+3V3" V 7565 4078 50  0000 L CNN
+F 2 "" H 7550 3950 50  0001 C CNN
+F 3 "" H 7550 3950 50  0001 C CNN
+	1    7550 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 631494F1
+P 7550 4050
+F 0 "#PWR035" H 7550 3800 50  0001 C CNN
+F 1 "GND" V 7555 3922 50  0000 R CNN
+F 2 "" H 7550 4050 50  0001 C CNN
+F 3 "" H 7550 4050 50  0001 C CNN
+	1    7550 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR016
+U 1 1 631494F7
+P 6950 3950
+F 0 "#PWR016" H 6950 3800 50  0001 C CNN
+F 1 "+3V3" V 6965 4078 50  0000 L CNN
+F 2 "" H 6950 3950 50  0001 C CNN
+F 3 "" H 6950 3950 50  0001 C CNN
+	1    6950 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 631494FD
+P 6950 4050
+F 0 "#PWR017" H 6950 3800 50  0001 C CNN
+F 1 "GND" V 6955 3922 50  0000 R CNN
+F 2 "" H 6950 4050 50  0001 C CNN
+F 3 "" H 6950 4050 50  0001 C CNN
+	1    6950 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 63149503
+P 6950 3850
+F 0 "#PWR01" H 6950 3700 50  0001 C CNN
+F 1 "+5V" V 6965 3978 50  0000 L CNN
+F 2 "" H 6950 3850 50  0001 C CNN
+F 3 "" H 6950 3850 50  0001 C CNN
+	1    6950 3850
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
